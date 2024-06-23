@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--CSS LINK-->
+     <link rel="stylesheet" href="../css/style.css">
+     <!--GOOGLE FONTS-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Contacto - ConCiencia Emocional</title>
+</head>
+
+<body>
+    <header class="display"> <!-- es el encabezado del proyecto -->
+        <img src="../assets/logo-removebg-preview.png" alt="Logo">
+        <nav class="display__nav">
+            <ul class="display__nav__list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./cursos.html">Cursos</a></li>
+                <li><a href="./quien-soy.html">Quien soy</a></li>
+                <li><a href="./objetivos.html">Objetivos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact"> <!--container-->
+        <section class="contact__cont"> <!--form-container-->
+            <h1>¡Escríbenos tus dudas!</h1>
+            <form action="form.php" method="post" class="contact__cont__form"> <!--contact-form-->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí" required>
+    
+                <label for="mail">Mail:</label>
+                <input type="email" id="mail" name="mail" placeholder="Ingresa tu mail aquí" required>
+    
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" cols="50" rows="10" placeholder="Escribe tu mensaje aquí" required></textarea>
+    
+                <input type="submit" value="Enviar formulario" class="submit-btn">
+            </form>
+        </section>
+        <section class="playlist__cont"> <!--playlist-container-->
+            <h2>¡Te dejamos esta playlist recomendada!</h2>
+            <div class="playlist__cont-embed"> <!--playlist-->
+                <iframe src="https://open.spotify.com/embed/playlist/5MEV0GFqLYlhPwl6TxkUkW?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__left-icons">
+            <img src="../assets/instalogo.webp" alt="Instagram">
+            <img src="../assets/facebooklogo.png" alt="Facebook">
+            <img src="../assets/tiktok-icon-free-png.webp" alt="TikTok">
+        </div>
+        <div class="footer__center-text">
+            <p>&copy; 2024 ConCiencia Emocional. Todos los derechos reservados.</p>
+        </div>
+        <div class="footer__right-logo">
+            <img src="../assets/logo-removebg-preview.png" alt="Logo">
+        </div>
+    </footer> 
+</body>
+</html> 
