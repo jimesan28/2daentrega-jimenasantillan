@@ -194,25 +194,29 @@ main {
 /*CONTACTO y playlist*/
 .contact {
     display: grid;
-    grid-template-columns: 1.5fr 0.5fr; 
-    gap: 20px; 
+    grid-template-columns: 1.5fr 0.5fr;
+    gap: 20px;
     padding: 20px;
     margin: 50px 50px 50px 0px;
 }
+
 .contact__cont {
-    background-color: #e7edb4; 
+    background-color: #e7edb4;
     padding: 20px;
-    border-radius: 12px; 
+    border-radius: 12px;
 }
+
 .contact__cont__form {
     display: flex;
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
 }
+
 .contact__cont__form label {
     margin-bottom: 10px;
 }
+
 .contact__cont__form input,
 .contact__cont__form textarea {
     padding: 25px;
@@ -221,6 +225,7 @@ main {
     border-radius: 4px;
     font-size: 16px;
 }
+
 .contact__cont__form input[type="submit"] {
     background-color: #b4e7ed;
     color: #040401;
@@ -231,23 +236,27 @@ main {
     border-radius: 4px;
     transition: background-color 0.3s;
 }
+
 .contact__cont__form input[type="submit"]:hover {
     background-color: #bab4ed;
 }
+
 .playlist__cont {
-    background-color: #b4e7ed; 
+    background-color: #b4e7ed;
     padding: 25px;
-    border-radius: 12px; 
+    border-radius: 12px;
 }
+
 .playlist__cont-embed {
-    overflow: hidden; 
-    border-radius: 12px; 
+    overflow: hidden;
+    border-radius: 12px;
 }
+
 .playlist__cont-embed iframe {
-    border-radius: 12px; 
-    width: 100%; 
-    height: 565px; 
-    border: none; 
+    border-radius: 12px;
+    width: 100%;
+    height: 565px;
+    border: none;
 }
 
 /*FOOTER*/
@@ -289,14 +298,14 @@ footer img:hover {
 /*IPAD*/
 
 /*Inicio*/
- @media (max-width: 768px) {
+ @media only screen and (min-width: 601px) and (max-width: 1023px) {
     .inicio__cont {
         flex-direction: column; 
         align-items: center;
     }
     
     .inicio__cont img {
-        margin: 20px 0;
+        margin: 10px 0;
     }
     
     .inicio__cont__parrafo {
@@ -307,26 +316,27 @@ footer img:hover {
 }
 
 /*Cursos*/
-@media (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
     .courses__cont {
         width: 60%; 
     }
 }
 /*Quien soy*/
-@media (max-width: 768px){
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
     .contenedor-aboutme img {
         width: 100%;
         max-width: 300px;
         border-radius: 50%;
-        margin: 10px 100px 20px 100px;
+        margin: 50px 100px 10px 100px;
     }
     .contenedor-aboutme p {
         max-width: 1000px;
-        font-size: medium
+        font-size: medium;
+        margin: 90px 0; 
     }
 }
 /*Objetivos*/
-@media (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
     .goals__cont {
         justify-content: center;
     }
@@ -346,7 +356,7 @@ footer img:hover {
     }
 }
 /*Contacto*/
-@media (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
     .contact {
         grid-template-columns: 1fr;
     }
@@ -357,7 +367,7 @@ footer img:hover {
 }
 /*HEADER*/
 /*FOOTER*/
-@media (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
     .footer__left-icons,
     .footer__right-logo {
         justify-content: center; 
@@ -382,7 +392,7 @@ footer img:hover {
 
 /*MOBILE*/
 /*Inicio*/
-@media (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
     .titulo {
         font-size: medium;
         margin-top: 20px;
@@ -391,6 +401,10 @@ footer img:hover {
     .inicio__subtitulo {
         font-size: small;
         margin: 10px;
+    }
+    .inicio__cont {
+        flex-direction: column;
+        align-items: center;
     }
 
     .inicio__cont img {
@@ -406,13 +420,13 @@ footer img:hover {
     }
 }
 /*Cursos*/
-@media (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
     .courses__cont {
         width: 90%; 
     }
 }
 /*Quien soy*/
-@media (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
     
     .contenedor-aboutme img {
         width: 100%;
@@ -426,7 +440,7 @@ footer img:hover {
     }
 }
 /*Objetivos*/
-@media (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
     .goals__cont {
         justify-content: center; 
         flex-direction: column; 
@@ -443,16 +457,32 @@ footer img:hover {
     }
 }
 /*Contacto*/
-@media (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    .contact {
+        grid-template-columns: 1fr;
+        margin: 20px 0;
+        
+    }
+
+    .contact__cont,
+    .playlist__cont {
+        padding: 15px;
+        max-width: 80%;
+    }
+
     .contact__cont__form input,
     .contact__cont__form textarea {
+        padding: 15px;
         font-size: 14px;
-        padding: 10px;
     }
 
     .contact__cont__form input[type="submit"] {
+        padding: 10px;
         font-size: 14px;
-        padding: 10px 15px;
+    }
+
+    .playlist__cont-embed iframe {
+        height: 300px;
     }
 }
 /*Header*/
