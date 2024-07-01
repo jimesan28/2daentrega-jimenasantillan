@@ -17,16 +17,25 @@
 
 <body>
     <header class="display"> <!-- es el encabezado del proyecto -->
-        <img src="./assets/logo-removebg-preview.png" alt="Logo">
-        <nav class="display__nav">
-            <ul class="display__nav__list">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/cursos.html">Cursos</a></li>
-                <li><a href="./pages/quien-soy.html">Quien soy</a></li>
-                <li><a href="./pages/objetivos.html">Objetivos</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul> 
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/logo-removebg-preview.png" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link" href="pages/cursos.html">Cursos</a>
+                  <a class="nav-link" href="pages/quien-soy.html">Quién soy</a>
+                  <a class="nav-link" href="pages/objetivos.html">Objetivos</a>
+                  <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <section class="titulo">
