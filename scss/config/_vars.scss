@@ -1,14 +1,26 @@
 //Fonts
 $title-principal: "Nunito", sans-serif;
 //Colours
-
 $color-st:  #e9d6f5;
 $color-nd: #e7edb4;
 $color-3th:  #b4e7ed; 
 $color-cont: #f3f2fc;
 $color-shadows:#04040130;
 $color-p_st: #040401;
-$color-p_nd: #555;
+$color-p_nd: #6b6666;
 $color-p_3th: #630ac9;
 $color-btn: #bab4ed; 
-
+//Mapas
+$j-fontsizes:(
+    xs: 10px,
+    sm: 14px,
+    md: 18px,
+    xl: 22px,
+    xxl: 30px
+);
+@each $formato, $talle in $j-fontsizes{
+    .jfz-#{$formato}{
+        font-size: $talle;
+    }
+}
+ 

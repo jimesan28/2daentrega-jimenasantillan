@@ -1,3 +1,23 @@
+.jfz-xs {
+  font-size: 10px;
+}
+
+.jfz-sm {
+  font-size: 14px;
+}
+
+.jfz-md {
+  font-size: 18px;
+}
+
+.jfz-xl {
+  font-size: 22px;
+}
+
+.jfz-xxl {
+  font-size: 30px;
+}
+
 * {
   font-family: "Nunito", sans-serif;
   margin: 0;
@@ -96,14 +116,14 @@ main {
   margin-bottom: 20px;
   margin-top: 20px;
   font-size: x-large;
-  color: #555;
+  color: #6b6666;
   /*text-decoration: underline;*/
 }
 .courses__cont p {
   padding: 20px;
   text-align: justify;
   font-weight: 500;
-  color: #555;
+  color: #6b6666;
   font-size: 600;
 }
 .courses__cont img {
@@ -129,7 +149,7 @@ main {
 .contenedor-aboutme p {
   text-align: justify;
   max-width: 1350px;
-  font-size: larger;
+  font-size: 22px;
   color: #040401;
 }
 
@@ -280,7 +300,7 @@ main {
   }
   .contenedor-aboutme p {
     max-width: 1000px;
-    font-size: medium;
+    font-size: 14px;
     margin: 90px 0;
   }
   .goals__cont {

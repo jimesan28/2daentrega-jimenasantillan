@@ -15,7 +15,7 @@
     p {
         text-align: justify;
         max-width: 1350px;
-        font-size: larger;
+        font-size: map-get($j-fontsizes, xl);
         color: $color-p_st;
     }
 }

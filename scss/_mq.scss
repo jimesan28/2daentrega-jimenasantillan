@@ -28,7 +28,7 @@
         
         p {
             max-width: 1000px;
-            font-size: medium;
+            font-size: map-get($j-fontsizes , sm );
             margin: 90px 0; 
         }
     }
