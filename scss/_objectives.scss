@@ -21,12 +21,11 @@
         }
 
         li {
-            margin: 25px; 
+            @include espacios (15px, 25px);
             font-size: larger; 
             line-height: 2;
-            background-color: #ede9f3; 
-            box-shadow: 0 0 10px #c3baca;
-            padding: 5px;
+            background-color:$color-cont;
+            box-shadow: 0 0 10px $color-shadows;
             border-radius: 10px; 
         }
     }

@@ -11,9 +11,9 @@
         width: 30%; 
         margin-bottom: 30px;
         margin-top: 30px;
-        background-color: #f3f2fc;
+        background-color: $color-cont;
         border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        box-shadow: 0 2px 4px $color-shadows;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         
         &:hover {
@@ -25,17 +25,17 @@
             margin-bottom: 20px;
             margin-top: 20px;
             font-size: x-large;
-            color: #555;
+            color: $color-p_nd;
             /*text-decoration: underline;*/
         }
 
         p {
+            padding: 20px;
             text-align: justify;
             font-weight: 500;
-            padding: 20px;
-            color: #555;
+            color: $color-p_nd;
             font-size: 600;
-            padding: 10px;
+            
         }
 
         img {

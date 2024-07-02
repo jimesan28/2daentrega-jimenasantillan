@@ -6,7 +6,7 @@
     margin: 50px 50px 50px 0px;
 
     &__cont {
-        background-color: #e7edb4;
+        background-color: $color-nd;
         padding: 20px;
         border-radius: 12px;
 
@@ -30,8 +30,8 @@
             }
 
             input[type="submit"] {
-                background-color: #b4e7ed;
-                color: #040401;
+                background-color: $color-3th;
+                color: $color-p_st;
                 border: none;
                 cursor: pointer;
                 padding: 10px 20px;
@@ -40,14 +40,14 @@
                 transition: background-color 0.3s;
 
                 &:hover {
-                    background-color: #bab4ed;
+                    background-color: $color-btn;
                 }
             }
         }
     }
 
     .playlist__cont {
-        background-color: #b4e7ed;
+        background-color: $color-3th;
         padding: 25px;
         border-radius: 12px;
 
