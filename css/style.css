@@ -12,33 +12,17 @@
     justify-content: space-between; 
     align-items: center; 
     background-color: #e9d6f5;
-    padding: 10px 20px
+    padding: 10px 20px;
+    position: sticky;
+    width: 100%;
+    top: 0%;
+    z-index: 1;
 }
 .display img {
     height: 50px;
 
 }
 
-.display__nav__list {
-    display: flex;
-    list-style: none;
-}
-.display__nav__list li {
-    margin: 0 15px; 
-}
-.display__nav__list li a{
-    text-decoration: none; 
-    font-size: 16px; 
-}
-.display__nav__list li a:hover{
-    color: #5c8cd7;
-}
-.display{
-    position: sticky;
-    width: 100%;
-    top: 0%;
-    z-index: 1;
-}
 /*MAIN*/
 main {
     flex: 1; 
@@ -300,7 +284,7 @@ footer img:hover {
 /*IPAD*/
 
 /*Inicio*/
- @media only screen and (min-width: 601px) and (max-width: 1023px) {
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
     .inicio__cont {
         flex-direction: column; 
         align-items: center;

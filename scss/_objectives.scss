@@ -5,32 +5,36 @@
     flex-wrap: wrap;
     max-width: 1200px; 
     margin: 0 auto;  
-}
-.goals__cont__list {
-    list-style-type: none;
-    margin: 0 20px;
-    width: 30%;
-    text-align: left;
-}
-.goals__cont__list-left {
-    order: 1;
-}
-.goals__cont__list-right {
-    order: 3;
-}
-.goals__cont__list li {
-    margin: 25px; 
-    font-size: larger; 
-    line-height: 2;
-    background-color: #ede9f3; 
-    box-shadow: 0 0 10px #c3baca;
-    padding: 5px;
-    border-radius: 10px; 
-}
-.goals__cont img {
-    order: 2;
-    width: 60%;
-    max-width: 350px;
-    margin: 150px 20px 0px 20px;
-   
+
+    &__list {
+        list-style-type: none;
+        margin: 0 20px;
+        width: 30%;
+        text-align: left;
+
+        &-left {
+            order: 1;
+        }
+
+        &-right {
+            order: 3;
+        }
+
+        li {
+            margin: 25px; 
+            font-size: larger; 
+            line-height: 2;
+            background-color: #ede9f3; 
+            box-shadow: 0 0 10px #c3baca;
+            padding: 5px;
+            border-radius: 10px; 
+        }
+    }
+
+    img {
+        order: 2;
+        width: 60%;
+        max-width: 350px;
+        margin: 150px 20px 0px 20px;
+    }
 }
