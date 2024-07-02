@@ -14,9 +14,11 @@
     background-color: #e9d6f5;
     padding: 10px 20px
 }
-.display img{
+.display img {
     height: 50px;
+
 }
+
 .display__nav__list {
     display: flex;
     list-style: none;
@@ -447,7 +449,7 @@ footer img:hover {
         align-items: center;
     }
     .goals__cont__list {
-        width: 90%; 
+        width: 100%; 
         margin: 10px 0; 
     }
     .goals__cont img {
@@ -461,7 +463,6 @@ footer img:hover {
     .contact {
         grid-template-columns: 1fr;
         margin: 20px 0;
-        
     }
 
     .contact__cont,
@@ -488,7 +489,7 @@ footer img:hover {
 /*Header*/
 
 /*Footer*/
-@media (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
     .footer__left-icons,
     .footer__right-logo {
         flex-direction: column; 

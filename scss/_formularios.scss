@@ -1,0 +1,66 @@
+.contact {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    gap: 20px;
+    padding: 20px;
+    margin: 50px 50px 50px 0px;
+}
+
+.contact__cont {
+    background-color: #e7edb4;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.contact__cont__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact__cont__form label {
+    margin-bottom: 10px;
+}
+
+.contact__cont__form input,
+.contact__cont__form textarea {
+    padding: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact__cont__form input[type="submit"] {
+    background-color: #b4e7ed;
+    color: #040401;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.contact__cont__form input[type="submit"]:hover {
+    background-color: #bab4ed;
+}
+
+.playlist__cont {
+    background-color: #b4e7ed;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.playlist__cont-embed {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.playlist__cont-embed iframe {
+    border-radius: 12px;
+    width: 100%;
+    height: 565px;
+    border: none;
+}

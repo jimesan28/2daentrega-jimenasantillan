@@ -1,0 +1,16 @@
+// Reset
+@import './config/vars';
+@import './config/reset';
+
+//Layout - extructura html
+@import './principal';
+@import './cabeza';
+@import './home';
+@import './courses';
+@import './sobremi';
+@import './objectives';
+@import './formularios';
+@import './pie';
+
+//Media queries - Ipad n' Mobile
+@import './mq';
