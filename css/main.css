@@ -112,7 +112,7 @@ main {
   transform: translateY(-5px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.courses__cont h3 {
+.courses__cont h2 {
   margin-bottom: 20px;
   margin-top: 20px;
   font-size: x-large;
@@ -147,7 +147,7 @@ main {
 }
 .contenedor-aboutme p {
   text-align: justify;
-  max-width: 1350px;
+  max-width: 1100px;
   font-size: 22px;
   color: #040401;
 }
